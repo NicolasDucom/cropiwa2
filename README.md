@@ -1,5 +1,14 @@
 # CropIwa2
+
+[![](https://jitpack.io/v/NicolasDucom/cropiwa2.svg)](https://jitpack.io/#NicolasDucom/cropiwa2)
+
 This project was forked from [the original](https://github.com/steelkiwi/cropiwa) Cropiwa library by [Steelkiwi](http://steelkiwi.com). As it is no longer maintained and as it has a couple of problematic bugs, this project is simply meant to make the library usable in production again. Don't hesitate to submit pull requests if you see anything missing.
+
+## Gradle
+Add this into your dependencies block.
+```
+implementation 'com.steelkiwi:cropiwa:1.0.3'
+```
 
 ↓↓↓↓↓ Original documentation ↓↓↓↓↓
 
