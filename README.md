@@ -1,14 +1,19 @@
+# CropIwa2
+This project was forked from [the original](https://github.com/steelkiwi/cropiwa) Cropiwa library by [Steelkiwi](http://steelkiwi.com). As it is no longer maintained and as it has a couple of problematic bugs, this project is simply meant to make the library usable in production again. Don't hesitate to submit pull requests if you see anything missing.
+
+↓↓↓↓↓ Original documentation ↓↓↓↓↓
+
 # CropIwa
 
 
 [![Made in SteelKiwi](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/made_in_steelkiwi.png)](http://steelkiwi.com/blog/)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CropIwa-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5511)
 
-The library is a highly configurable widget for image cropping. 
+The library is a highly configurable widget for image cropping.
 
 ![GifSample1](https://github.com/polyak01/cropiwa/blob/master/assets/3J8gYWC.gif)
 
-## Gradle 
+## Gradle
 Add this into your dependencies block.
 ```
 compile 'com.steelkiwi:cropiwa:1.0.3'
@@ -20,8 +25,8 @@ Please see the [sample app](sample/src/main/java/com/steelkiwi/cropiwa/sample) f
 The library has a modular architecture, which makes it highly configurable. For info on how to configure `CropIwaView` refer to the sections
 below.
 
-One of the useful features is that you don't have to wait for a result - after crop request is done, simply switch to another 
-screen and wait for the result in a form of broadcast. 
+One of the useful features is that you don't have to wait for a result - after crop request is done, simply switch to another
+screen and wait for the result in a form of broadcast.
 
 ### Usage:
  Add CropIwa to your xml:
@@ -65,7 +70,7 @@ cropIwaView.configureOverlay().addConfigChangeListener(listener);
 cropIwaView.configureImage().addConfigChangeListener(listener)
 ```
 ### Basic View Configuration
-* Enable user to resize a crop area. Default is true. 
+* Enable user to resize a crop area. Default is true.
 ```java
 app:ci_dynamic_aspect_ratio="true|false"
 
