@@ -5,10 +5,25 @@
 This project was forked from [the original](https://github.com/steelkiwi/cropiwa) Cropiwa library by [Steelkiwi](http://steelkiwi.com). As it is no longer maintained and as it has a couple of problematic bugs, this project is simply meant to make the library usable in production again. Don't hesitate to submit pull requests if you see anything missing.
 
 ## Gradle
-Add this into your dependencies block.
+Add this into your dependencies block :
+
+Jitpack :
 ```
-implementation 'com.steelkiwi:cropiwa:1.0.3'
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
 ```
+
+Library :
+```
+dependencies {
+	        implementation 'com.github.NicolasDucom:cropiwa2:2.0-alpha01'
+	}
+```   
+
 
 ↓↓↓↓↓ Original documentation ↓↓↓↓↓
 
